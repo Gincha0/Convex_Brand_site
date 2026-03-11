@@ -1,13 +1,21 @@
-/** Row A — SVG placeholder left, text right */
+import Image from 'next/image'
+
+/** Row A — case silhouette left, text right */
 
 export function RowA() {
   return (
     <section id="specs" className="py-24">
       <div className="mx-auto w-full max-w-[1500px] xl:max-w-[1220px] lg:max-w-[1000px] px-6">
         <div className="grid grid-cols-2 gap-12 items-center">
-          {/* Left — SVG placeholder */}
-          <div className="bg-accent w-full aspect-[4/3] flex items-center justify-center rounded">
-            <span className="text-grey-light text-lg font-light">case-silhouette-a.svg</span>
+          {/* Left — case silhouette A (600×424 viewport, ~4:3) */}
+          <div className="w-full aspect-[600/424]">
+            <Image
+              src="/case-silhouette-a.svg"
+              alt="CONVEX case — side view"
+              width={600}
+              height={424}
+              className="w-full h-full object-contain"
+            />
           </div>
 
           {/* Right — text */}

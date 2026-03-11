@@ -1,4 +1,6 @@
-/** Row B — text left, SVG placeholder right */
+import Image from 'next/image'
+
+/** Row B — text left, case silhouette right */
 
 export function RowB() {
   return (
@@ -21,9 +23,15 @@ export function RowB() {
             </p>
           </div>
 
-          {/* Right — SVG placeholder */}
-          <div className="bg-accent w-full aspect-[4/3] flex items-center justify-center rounded">
-            <span className="text-grey-light text-lg font-light">case-silhouette-b.svg</span>
+          {/* Right — case silhouette B (600×424 viewport, ~4:3) */}
+          <div className="w-full aspect-[600/424]">
+            <Image
+              src="/case-silhouette-b.svg"
+              alt="CONVEX case — front view"
+              width={600}
+              height={424}
+              className="w-full h-full object-contain"
+            />
           </div>
         </div>
       </div>
