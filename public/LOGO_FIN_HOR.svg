@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="846mm"
+   height="120mm"
+   viewBox="0 0 846 120"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="LOGO_FIN_HOR.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     showguides="true"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="1472.9034"
+     inkscape:cy="420.72853"
+     inkscape:window-width="3440"
+     inkscape:window-height="1369"
+     inkscape:window-x="1432"
+     inkscape:window-y="867"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1">
+    <rect
+       x="566.92908"
+       y="0"
+       width="2002.8756"
+       height="453.5433"
+       id="rect21" />
+  </defs>
+  <path
+     id="path20"
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+     inkscape:label="path20"
+     d="M 103.90691,-2.74e-5 77.926192,4.68e-5 58.007773,34.499766 123.82518,34.499904 Z M 74.461731,4.6e-6 34.625032,-2.114e-4 21.634357,22.500303 41.552891,56.999795 Z m 51.095279,37.4999344 -39.836257,4.2e-5 32.908577,56.99994 19.91868,-34.500178 z M 96.978402,62.999956 64.069306,120.00021 103.90697,119.99979 116.89713,97.500161 Z M 19.902674,25.49966 -0.01600996,59.99983 12.974285,82.499821 l 39.837408,3.1e-5 z m 60.621549,60.000143 -65.818113,4.7e-5 19.918729,34.50019 25.980714,-7e-5 z"
+     sodipodi:nodetypes="cccccccccccccccccccccccccccccc" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g21" />
+    <g
+       id="g20" />
+  </g>
+  <path
+     style="font-weight:bold;font-size:392.582px;font-family:'Chakra Petch';-inkscape-font-specification:'Chakra Petch, Bold';white-space:pre;stroke-width:33.6317"
+     d="M 152.01167,100.28571 V 19.714284 L 172.47801,0 h 60.86511 l 20.11041,19.371428 v 18.342855 h -24.20368 v -9.771426 l -8.3645,-8.057144 h -35.59364 l -9.07636,8.742854 v 62.742861 l 9.07636,8.742852 h 35.59364 l 8.3645,-8.057142 v -9.771427 h 24.20368 V 100.62857 L 233.34312,120 h -60.86511 z m 116.56928,0 V 19.714284 L 289.04728,0 h 64.06853 l 20.46637,19.714284 V 100.28571 L 353.11581,120 h -64.06853 z m 71.72115,-0.17143 9.07638,-8.742852 V 28.628567 l -9.07638,-8.742854 h -38.44112 l -9.07638,8.742854 v 62.742861 l 9.07638,8.742852 z M 394.93847,0 h 21.71211 l 55.52607,81.42857 h 0.35595 V 0 h 23.31382 V 120 H 474.13431 L 418.60823,38.742855 h -0.3559 V 120 H 394.93847 Z M 509.1941,0 h 24.91555 l 30.96647,92.22857 h 0.35594 L 596.3985,0 h 24.91557 L 577,120 h -23.49179 z m 125.46749,0 h 90.0519 v 19.714284 h -65.84821 v 30.342855 h 60.68712 v 19.37143 h -60.68712 v 30.857141 h 65.84821 V 120 h -90.0519 z M 775.25659,58.114284 733.61204,0 h 27.22915 L 788.96018,39.42857 817.07912,0 h 27.22914 L 802.66371,58.800001 846.08795,120 H 818.85879 L 788.96018,77.657141 759.0615,120 h -27.22914 z"
+     id="text21"
+     aria-label="CONVEX" />
+</svg>
