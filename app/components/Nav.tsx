@@ -11,15 +11,14 @@ const NAV_ITEMS = ['About', 'Specs', 'Components'] as const
 
 export function Nav({ visible }: NavProps) {
   return (
-    <motion.nav
-      className="fixed top-6 left-1/2 -translate-x-1/2 z-40"
-      initial={{ opacity: 0, y: -8 }}
-      animate={visible ? { opacity: 1, y: 0 } : { opacity: 0, y: -8 }}
-      transition={{ duration: 0.4, ease: 'easeOut' }}
-    >
-      <div
-        className="flex items-center gap-6 px-6 py-3 rounded border border-grey-lightest backdrop-blur-md"
+    // Outer nav spans full viewport width so centering is never offset by transforms
+    <nav className="fixed top-6 inset-x-0 z-40 flex justify-center pointer-events-none">
+      <motion.div
+        className="pointer-events-auto flex items-center gap-6 px-6 py-3 rounded border border-grey-lightest backdrop-blur-md"
         style={{ background: 'rgba(127, 127, 127, 0.85)' }}
+        initial={{ opacity: 0, y: -8 }}
+        animate={visible ? { opacity: 1, y: 0 } : { opacity: 0, y: -8 }}
+        transition={{ duration: 0.4, ease: 'easeOut' }}
       >
         {NAV_ITEMS.map((item) => (
           <a
@@ -39,7 +38,7 @@ export function Nav({ visible }: NavProps) {
         >
           Notify Me
         </Button>
-      </div>
-    </motion.nav>
+      </motion.div>
+    </nav>
   )
 }

@@ -1,4 +1,4 @@
-import { ConvexLogo } from './ui/ConvexLogo'
+import Image from 'next/image'
 import { SignupForm } from './ui/SignupForm'
 
 export function Footer() {
@@ -7,12 +7,15 @@ export function Footer() {
       {/* Main footer row */}
       <div className="mx-auto w-full max-w-[1500px] xl:max-w-[1220px] lg:max-w-[1000px] px-6 py-24">
         <div className="grid grid-cols-2 gap-12 items-start">
-          {/* Left — logo lockup + location */}
+          {/* Left — full horizontal logo lockup (white SVG) + location */}
           <div className="flex flex-col gap-4">
-            <div className="flex items-center gap-4">
-              <ConvexLogo size={40} bladeColor="#FFFFFF" />
-              <span className="text-2xl font-bold text-white tracking-tight">CONVEX</span>
-            </div>
+            <Image
+              src="/LOGO_FIN_HOR_white.svg"
+              alt="CONVEX"
+              width={220}
+              height={32}
+              priority
+            />
             <p className="text-lg font-light text-grey-light">Riga, Latvia</p>
           </div>
 
