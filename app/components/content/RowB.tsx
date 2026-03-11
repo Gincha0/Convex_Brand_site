@@ -13,13 +13,16 @@ export function RowB() {
               Where it comes from
             </h2>
             <p className="text-2xl font-normal text-grey-light">
-              Designed in Riga, Latvia. The hexagon motif comes from the
-              Latvian folk tradition — six-pointed geometry that recurs across
-              centuries of textile and architectural work.
+              Designed in Riga. Latvian folk ornament is built on sharp angles
+              and precise geometry — patterns that repeat with near-mathematical
+              regularity across textiles and carved wood going back centuries.
+              Nothing curved, nothing soft.
             </p>
             <p className="text-2xl font-normal text-grey-light">
-              The aesthetic is sleeper: precise, undecorated, built to
-              perform rather than to impress at a glance.
+              That same precision will be in the case. Flat panels, exact edges,
+              every radius intentional. Sleek without being minimal. Geometric
+              without being cold. The kind of thing that will feel right the
+              moment you pick it up.
             </p>
           </div>
 

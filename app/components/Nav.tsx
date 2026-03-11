@@ -7,7 +7,7 @@ export type NavProps = {
   visible: boolean
 }
 
-const NAV_ITEMS = ['About', 'Specs', 'Components'] as const
+const NAV_ITEMS = ['Specs', 'Components'] as const
 
 export function Nav({ visible }: NavProps) {
   return (
@@ -15,7 +15,7 @@ export function Nav({ visible }: NavProps) {
     <nav className="fixed top-6 inset-x-0 z-40 flex justify-center pointer-events-none">
       <motion.div
         className="pointer-events-auto flex items-center gap-6 px-6 py-3 rounded border border-grey-lightest backdrop-blur-md"
-        style={{ background: 'rgba(127, 127, 127, 0.85)' }}
+        style={{ background: 'rgba(127, 127, 127, 0.3)' }}
         initial={{ opacity: 0, y: -8 }}
         animate={visible ? { opacity: 1, y: 0 } : { opacity: 0, y: -8 }}
         transition={{ duration: 0.4, delay: visible ? 0.75 : 0, ease: 'easeOut' }}

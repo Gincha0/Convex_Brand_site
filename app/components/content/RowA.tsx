@@ -24,12 +24,14 @@ export function RowA() {
               A different kind of compact
             </h2>
             <p className="text-2xl font-normal text-grey-light">
-              Micro-ATX where Mini-ITX gives up — without the bulk of full ATX.
-              Full-size GPU support, proper cooling clearance, and a form factor
-              that actually fits your desk.
+              Most cases waste space. A standard mid-tower is roughly half air —
+              dead volume above the motherboard, empty columns beside the PSU,
+              front panel bays nobody uses. That is the starting point.
             </p>
             <p className="text-2xl font-normal text-grey-light">
-              No compromises on hardware. No compromises on size.
+              CONVEX will fit Micro-ATX and Mini-ITX boards, full-length GPUs,
+              and real cooling clearance into a chassis that takes up less desk
+              than most cases that don&apos;t. The density is the point.
             </p>
           </div>
         </div>

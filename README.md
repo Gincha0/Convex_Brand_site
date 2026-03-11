@@ -1,6 +1,6 @@
 # CONVEX — Brand Site
 
-Brand and concept site for **CONVEX**, a compact Micro-ATX PC case venture designed in Riga, Latvia. Pre-product stage — goal is brand establishment and newsletter signups.
+Pre-launch brand site for **CONVEX**, a compact PC case being designed in Riga, Latvia. The goal is early interest and newsletter signups before anything ships.
 
 Live target: [convexpc.com](https://convexpc.com) &nbsp;·&nbsp; Repo: [github.com/Gincha0/Convex_Brand_site](https://github.com/Gincha0/Convex_Brand_site)
 
@@ -8,7 +8,9 @@ Live target: [convexpc.com](https://convexpc.com) &nbsp;·&nbsp; Repo: [github.c
 
 ## Overview
 
-CONVEX sits between Mini-ITX and full ATX — Micro-ATX form factor with full-size GPU clearance (RTX 5080/5090), cooling-first internal layout, and a geometric aesthetic rooted in Latvian design tradition. The site is a pre-launch brand page built to establish visual identity and capture early interest.
+Most cases waste space. A standard mid-tower is roughly half air — dead space above the motherboard, empty columns beside the PSU, front panel bays nobody uses. CONVEX will fit Micro-ATX and Mini-ITX boards, full-length GPUs, and real cooling clearance into a chassis that takes up significantly less.
+
+The geometry is rooted in Latvian folk ornament: sharp angles, precise repeating patterns, nothing curved or soft. Flat panels, exact edges, 240mm liquid cooling support, clearance for the largest current-gen GPU sizes.
 
 ---
 
@@ -27,11 +29,11 @@ CONVEX sits between Mini-ITX and full ATX — Micro-ATX form factor with full-si
 
 ## Features
 
-- **Loading animation** — aperture hexagon logo with sequential clockwise blade sweep (black → accent → grey → white), synchronized reset, state-machine driven
+- **Loading animation** — aperture hexagon logo with sequential clockwise blade sweep (black → accent → grey → white), state-machine driven with clean loop reset
 - **Hero reveal sequence** — logo mark animates from center to lockup, wordmark clips open left-to-right via SVG path + `clipPath`
 - **Parallax hero** — background layer moves at 0.5× scroll rate via Framer Motion `useScroll`
-- **Floating nav** — centered glass-blur pill, animates in with tagline
-- **Content sections** — two-column layout rows with SVG asset placeholders
+- **Floating nav** — centered glass-blur pill, animates in with tagline, links to Specs and Components sections
+- **Content sections** — two-column layout rows with real case silhouette SVGs and component illustrations
 - **Newsletter signup** — client-side form with validation and success state (UI only, no backend)
 - **Footer** — full horizontal logo lockup, location, copyright
 
@@ -71,7 +73,7 @@ npm run lint
 
 ## Project Status
 
-Pre-product. SVG asset slots (case renders, GPU/cooler illustrations) use accent-colour placeholder divs — final assets are a pending design task. Newsletter form is UI-only; backend integration deferred until launch confirmed.
+Pre-product. Newsletter form is UI-only; backend integration deferred until launch is confirmed.
 
 First units targeting end of 2027.
 
