@@ -18,7 +18,7 @@ export function Nav({ visible }: NavProps) {
         style={{ background: 'rgba(127, 127, 127, 0.85)' }}
         initial={{ opacity: 0, y: -8 }}
         animate={visible ? { opacity: 1, y: 0 } : { opacity: 0, y: -8 }}
-        transition={{ duration: 0.4, ease: 'easeOut' }}
+        transition={{ duration: 0.4, delay: visible ? 0.75 : 0, ease: 'easeOut' }}
       >
         {NAV_ITEMS.map((item) => (
           <a
